@@ -1,2 +1,6 @@
-﻿  TalOrder.vcxproj -> C:\Workspace\C++\TalOrder\Debug\TalOrder.exe
+﻿  piece.cpp
+  coordinates.cpp
+  board.cpp
+  Generating Code...
+  TalOrder.vcxproj -> C:\Workspace\C++\TalOrder\Debug\TalOrder.exe
   TalOrder.vcxproj -> C:\Workspace\C++\TalOrder\Debug\TalOrder.pdb (Partial PDB)

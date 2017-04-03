@@ -10,10 +10,10 @@
 #include <stdio.h>
 #include <tchar.h>
 
-#include "board.h"
-#include "color.h"
-#include "coordinates.h"
-#include "piece.h"
+#include "src/board.h"
+#include "src/color.h"
+#include "src/coordinates.h"
+#include "src/piece.h"
 
 
 
