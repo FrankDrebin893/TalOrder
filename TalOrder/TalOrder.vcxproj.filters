@@ -19,6 +19,15 @@
     <Filter Include="Source Files\pieces">
       <UniqueIdentifier>{cdcc2db9-5ae9-407a-9dfc-fd57418fba17}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\misc">
+      <UniqueIdentifier>{2d41a85e-2459-40c5-aaa6-b442de0dc1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\board">
+      <UniqueIdentifier>{599536c5-8954-4c6c-9019-6bf07505061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\board">
+      <UniqueIdentifier>{68b0e7b8-10ce-4945-9ddd-d31af9d66690}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,11 +42,14 @@
     <ClInclude Include="piece.h">
       <Filter>Header Files\pieces</Filter>
     </ClInclude>
-    <ClInclude Include="color.h">
-      <Filter>Header Files\pieces</Filter>
-    </ClInclude>
     <ClInclude Include="coordinates.h">
       <Filter>Header Files\pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Header Files\board</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="coordinates.cpp">
       <Filter>Source Files\pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source Files\board</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

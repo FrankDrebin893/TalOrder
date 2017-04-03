@@ -10,10 +10,11 @@
 #include <stdio.h>
 #include <tchar.h>
 
-
+#include "board.h"
 #include "color.h"
 #include "coordinates.h"
 #include "piece.h"
+
 
 
 
