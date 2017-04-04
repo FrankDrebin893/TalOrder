@@ -12,10 +12,10 @@ public:
     Coordinates(int, int);
     ~Coordinates();
 
-    void printCoordinates() const;
-    void setCoordinates(int, int);
+    void PrintCoordinates() const;
+    void set_coordinates(int, int);
 
 private:
-    
+
 };
 

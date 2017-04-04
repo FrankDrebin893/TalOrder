@@ -23,13 +23,13 @@ public:
 	~Piece();
 	Piece(Color, PieceType, Coordinates);
 
-	Coordinates getCoordinates() const;
-	void printPiece() const;
+	Coordinates get_coordinates() const;
+	void PrintPiece() const;
 
 private:
 };
 
-inline Coordinates Piece::getCoordinates() const
+inline Coordinates Piece::get_coordinates() const
 {
 	return m_coordinates;
 }

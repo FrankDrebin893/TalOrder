@@ -1,5 +1,6 @@
-#pragma once
 #include "stdafx.h"
+#pragma once
+
 
 Coordinates::Coordinates() {
 	m_fileNum = 1;
@@ -23,7 +24,7 @@ void Coordinates::printCoordinates() const
 	std::cout << "Rank: " << m_rankNum << std::endl;
 }
 
-void Coordinates::setCoordinates(int fileNum, int rankNum) {
+void Coordinates::set_coordinates(int fileNum, int rankNum) {
 	m_fileNum = fileNum;
 	m_rankNum = rankNum;
 }

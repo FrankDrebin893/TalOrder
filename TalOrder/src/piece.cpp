@@ -20,13 +20,13 @@ Piece::Piece(Color color, PieceType type, Coordinates coordinates) {
 	m_coordinates = coordinates;
 }
 
-void Piece::printPiece() const
+void Piece::PrintPiece() const
 {
 	std::cout << "******" << std::endl;
 	std::cout << "Color:" << std::endl;
 	std::cout << m_color << std::endl;
 	std::cout << "Type:" << std::endl;
 	std::cout << m_type << std::endl;
-	m_coordinates.printCoordinates();
+	m_coordinates.PrintCoordinates();
 	std::cout << "******" << std::endl;
 }
