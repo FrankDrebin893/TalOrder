@@ -50,7 +50,7 @@
     <ClCompile Include="src/piece.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="move_generation.cpp">
+    <ClCompile Include="src/move_generation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
