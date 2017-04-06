@@ -11,7 +11,11 @@ Piece::Piece(Coordinates coordinates)
 
 Piece::~Piece()
 {
+}
 
+Piece::Piece(Color color, PieceType type) {
+	m_color = color;
+	m_type = type;
 }
 
 Piece::Piece(Color color, PieceType type, Coordinates coordinates) {

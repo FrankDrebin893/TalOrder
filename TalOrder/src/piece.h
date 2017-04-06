@@ -18,6 +18,7 @@ class Piece
 	PieceType m_type;
 
 public:
+	Piece(Color, PieceType);
 	Piece(Coordinates);
 	~Piece();
 	Piece(Color, PieceType, Coordinates);

@@ -147,7 +147,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="move_generation.cpp" />
+    <ClCompile Include="src/move_generation.cpp" />
     <ClCompile Include="src/board.cpp" />
     <ClCompile Include="src/coordinates.cpp" />
     <ClCompile Include="src/piece.cpp" />

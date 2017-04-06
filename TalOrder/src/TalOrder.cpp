@@ -9,7 +9,7 @@ int main()
 	Coordinates coordinates(4, 4);
 	Piece piece(WHITE, KING, coordinates);
 	piece.PrintPiece();
-	std::cout << "Hello" << std::endl;
+	std::cout << "Hello2" << std::endl;
 
 
 	int i;
