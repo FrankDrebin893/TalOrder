@@ -14,6 +14,7 @@
 #include "color.h"
 #include "coordinates.h"
 #include "evaluation.h"
+#include "move_generation.h"
 #include "piece.h"
 
 

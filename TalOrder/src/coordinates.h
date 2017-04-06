@@ -19,3 +19,8 @@ private:
 
 };
 
+inline void Coordinates::set_coordinates(int fileNum, int rankNum) {
+	m_fileNum = fileNum;
+	m_rankNum = rankNum;
+}
+

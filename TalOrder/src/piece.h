@@ -16,7 +16,6 @@ class Piece
 {
 	Color m_color;
 	PieceType m_type;
-	Coordinates m_coordinates;
 
 public:
 	Piece(Coordinates);
@@ -27,9 +26,11 @@ public:
 	void PrintPiece() const;
 
 private:
+	Coordinates m_coordinates;
 };
 
 inline Coordinates Piece::get_coordinates() const
 {
 	return m_coordinates;
 }
+

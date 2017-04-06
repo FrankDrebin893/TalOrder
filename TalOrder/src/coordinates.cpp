@@ -18,13 +18,8 @@ Coordinates::~Coordinates()
 {
 }
 
-void Coordinates::printCoordinates() const
+void Coordinates::PrintCoordinates() const
 {
 	std::cout << "File: " << m_fileNum << std::endl;
 	std::cout << "Rank: " << m_rankNum << std::endl;
-}
-
-void Coordinates::set_coordinates(int fileNum, int rankNum) {
-	m_fileNum = fileNum;
-	m_rankNum = rankNum;
 }

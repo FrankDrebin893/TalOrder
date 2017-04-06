@@ -8,8 +8,10 @@ int main()
 {
 	Coordinates coordinates(4, 4);
 	Piece piece(WHITE, KING, coordinates);
-	piece.print_piece();
+	piece.PrintPiece();
 	std::cout << "Hello" << std::endl;
+
+
 	int i;
 	std::cin >> i;
     return 0;

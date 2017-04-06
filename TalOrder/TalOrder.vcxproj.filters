@@ -27,9 +27,6 @@
     <ClInclude Include="board.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="evaluation.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="color.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -39,17 +36,11 @@
     <ClInclude Include="piece.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="move_generation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="evaluation.cpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TalOrder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src/board.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -57,6 +48,17 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src/piece.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move_generation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src/TalOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
